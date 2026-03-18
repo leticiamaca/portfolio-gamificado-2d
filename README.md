@@ -3,7 +3,7 @@
 
 ### Portfolio Gamificado Conhecendo Letícia
 
-##🎮 Sobre o Projeto
+## 🎮 Sobre o Projeto
 
 **Conhecendo Leticia** é uma experiência interativa 2D que transforma o tradicional portfólio web em um jogo de plataforma pixel art. Nascido da vontade de fazer algo genuinamente diferente, porque, afinal, ter um portfólio na web hoje em dia já não é mais diferencial este projeto convida o visitante a *jogar* para me conhecer.
 

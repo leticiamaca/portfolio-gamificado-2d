@@ -1,4 +1,4 @@
-<div><img src="./imgReadme/Banner.png"></div>
+<div><img src="./img.jpeg"></div>
 
 
 ### Portfolio Gamificado Conhecendo Letícia
@@ -12,19 +12,19 @@
 ---
 
 ### 🕹️ Como Funciona
-🗺️  MUNDO DO JOGO
+🗺️  MUNDO DO JOGO <br>
 │
-├── 🍄 Inimigos Cogumelos  →  Derrote-os para ganhar pontos
+├── 🍄 Inimigos Cogumelos  →  Derrote-os para ganhar pontos <br>
 │
-├── 🪙 Moedas             →  Colete para acumular recursos
+├── 🪙 Moedas             →  Colete para acumular recursos <br>
 │
-├── 🏠 Casinhas           →  Desbloqueie com as moedas coletadas
+├── 🏠 Casinhas           →  Desbloqueie com as moedas coletadas <br>
 │    │
-│    └── 🖼️  Canvas Interativo  →  Conheça os assuntos do portfólio
-│         ├── 👩 Sobre Mim
-│         ├── 💻 Tecnologias
-│         ├── 🎓 Formações
-│         └── 🚀 Projetos
+│    └── 🖼️  Canvas Interativo  →  Conheça os assuntos do portfólio <br>
+│         ├── 👩 Sobre Mim <br>
+│         ├── 💻 Tecnologias <br>
+│         ├── 🎓 Formações <br>
+│         └── 🚀 Projetos <br>
 
 Cada **casinha** representa uma seção do portfólio. Ao desbloqueá-la, o jogador é transportado para um novo cenário e pode interagir com um **canvas dinâmico** contendo textos e informações sobre aquele tema.
 
@@ -87,19 +87,19 @@ Feito com 💜 por **Leticia** — desenvolvedora que prefere construir mundos a
 ---
 
 ### 🕹️ How It Works
-🗺️  GAME WORLD
+🗺️  GAME WORLD <br>
 │
-├── 🍄 Mushroom Enemies   →  Defeat them to earn points
+├── 🍄 Mushroom Enemies   →  Defeat them to earn points <br>
 │
-├── 🪙 Coins              →  Collect to accumulate resources
+├── 🪙 Coins              →  Collect to accumulate resources <br>
 │
-├── 🏠 Little Houses      →  Unlock them with collected coins
+├── 🏠 Little Houses      →  Unlock them with collected coins <br>
 │    │
-│    └── 🖼️  Interactive Canvas  →  Discover portfolio content
-│         ├── 👩 About Me
-│         ├── 💻 Technologies
-│         ├── 🎓 Education
-│         └── 🚀 Projects
+│    └── 🖼️  Interactive Canvas  →  Discover portfolio content <br>
+│         ├── 👩 About Me <br>
+│         ├── 💻 Technologies <br>
+│         ├── 🎓 Education <br>
+│         └── 🚀 Projects <br>
 
 Each **little house** represents a section of the portfolio. Once unlocked, the player is taken to a new scene where they can interact with a **dynamic canvas** displaying texts and information on that topic.
 

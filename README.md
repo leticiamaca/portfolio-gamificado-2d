@@ -1,7 +1,7 @@
 <div><img src="./img.jpeg"></div>
 
 
-### Portfolio Gamificado Conhecendo Letícia
+# Portfolio Gamificado Conhecendo Letícia
 
 ## 🎮 Sobre o Projeto
 

@@ -6,6 +6,7 @@ public class MenuPause : MonoBehaviour
     [Header("Canvas")]
     [SerializeField] private GameObject canvasPause;
     [SerializeField] private GameObject canvasOpcoes;
+    [SerializeField] private GameObject canvasGuia;
 
 
    
@@ -14,6 +15,7 @@ public class MenuPause : MonoBehaviour
         //Canvas Pause e opcoes vai começar desativado
         canvasPause.SetActive(false);
         canvasOpcoes.SetActive(false);
+        canvasGuia.SetActive(false);
     }
 
     //Botão de recomeçar o jogo
@@ -25,7 +27,6 @@ public class MenuPause : MonoBehaviour
 
     public void Menu()
     {
-        Debug.Log("Botão clicado!");
         Time.timeScale = 1f;
         SceneManager.LoadScene("TelaPlay");
     }
@@ -45,6 +46,7 @@ public class MenuPause : MonoBehaviour
     public void Fechar()
     {
         canvasOpcoes.SetActive(false);
+        canvasGuia.SetActive(false);
     }
   
     void Update()
@@ -55,6 +57,17 @@ public class MenuPause : MonoBehaviour
             canvasPause.SetActive(pausado);
             Time.timeScale = pausado ? 0f : 1f;
         }
+    }
+
+    public void Guia()
+    {
+        canvasGuia.SetActive(true);
+    }
+
+    public void FecharGuia()
+    {
+        canvasGuia.SetActive(false);
+    
     }
     
 }

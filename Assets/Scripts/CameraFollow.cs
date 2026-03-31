@@ -1,33 +1,22 @@
+using Unity.Cinemachine;
 using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    [Header("Alvo")]
-    public Transform target;
-
-    [Header("Suavização")]
-    public float smoothSpeed = 5f;
-
-    [Header("Offset")]
-    public Vector3 offset = new Vector3(0f, 0f, -10f);
-
-    [Header("Limites (opcional)")]
-    public bool useBounds = false;
-    public float minX, maxX, minY, maxY;
-
-    void LateUpdate()
+    //Como o player vem via DontDestroyOnLoad, ele não existe na cena ainda quando o Cinemachine inicializa, então a referência pode não pegar direto.
+    //script que atribui o player ao Cinemachine em tempo de execução
+    private void Start()
     {
-        if (target == null) return;
+        GameObject player = GameObject.FindWithTag("Player");
 
-        Vector3 desiredPosition = target.position + offset;
-
-        if (useBounds)
+        if (player != null)
         {
-            desiredPosition.x = Mathf.Clamp(desiredPosition.x, minX, maxX);
-            desiredPosition.y = Mathf.Clamp(desiredPosition.y, minY, maxY);
+            Debug.Log("Player encontrado: " + player.name);
+            GetComponent<CinemachineCamera>().Target.TrackingTarget = player.transform;
         }
-
-        Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed * Time.deltaTime);
-        transform.position = smoothedPosition;
+        else
+        {
+            Debug.LogError("Player NÃO encontrado! Verifique a Tag.");
+        }
     }
 }

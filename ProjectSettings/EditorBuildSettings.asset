@@ -9,8 +9,26 @@ EditorBuildSettings:
     path: Assets/Scenes/TelaPlay.unity
     guid: 97118a33743c7fe46b5890a24ab39c18
   - enabled: 1
+    path: Assets/Scenes/LoadScreen.unity
+    guid: 2ed6831698081be498ef65fa20bb4c98
+  - enabled: 1
     path: Assets/Scenes/Jogo.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/CasaSobre.unity
+    guid: 5e77ca662923d1447bb7b8426edfff41
+  - enabled: 1
+    path: Assets/Scenes/CasaTecnologias.unity
+    guid: 6c6ef7e71d83ce7489fd5dd59447e0cf
+  - enabled: 1
+    path: Assets/Scenes/CasaFormacao.unity
+    guid: 6989898a895610d4c91a2ec517332cf0
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 44991de081e110a49aca7ba1a6798d2e
+  - enabled: 1
+    path: Assets/Scenes/TelaFinal.unity
+    guid: 6cdececaf09ac2e4d951f9889fb152b7
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

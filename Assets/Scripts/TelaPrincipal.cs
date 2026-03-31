@@ -16,7 +16,7 @@ public class TelaPrincipal : MonoBehaviour
 
     public void BotaoPlay()
     {
-        SceneManager.LoadScene("Jogo");
+        FadeSystem.Instance.LoadScene("LoadScreen");
     }
 
     // Habilitando o canvas opcoes
